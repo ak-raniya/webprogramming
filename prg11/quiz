@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Online quiz</title>
+</head>
+<body>
+<h3>1.Who is the CEO of the google?</h3>
+<input type="radio" name="q1" id="a">Sunder Pichai<br>
+<input type="radio" name="q1">elon musk<br>
+<input type="radio" name="q1">bill gates<br>
+<input type="radio" name="q1">Zucken berg<br>
+
+<h3>2.What is the full form of HTML?</h3>
+<input type="radio" name="q2" id="b">Hyper Text Markup Language<br>
+<input type="radio" name="q2">High Text Markup Language <br>
+<input type="radio" name="q2">Hyper Text Makeup Languge  <br>
+<input type="radio" name="q2">Hyper Text Markup Learner <br>
+
+<h3>3.What is the full form of CSS?</h3>
+<input type="radio" name="q3" id="c">Cascading Style Sheet<br>
+<input type="radio" name="q3">Cascading Single Sheet<br>
+<input type="radio" name="q3">Cascading Style Slip<br>
+<input type="radio" name="q3">Casting Style Sheet<br>
+<input type="submit" value="submit" onclick="result()"><br><br>
+<p id="res" style="font-weight:600;font-size:18px;">score:0</p>
+<script>
+function result(){
+ let score=0;
+ if(document.getElementById("a").checked)
+ {
+ score++;
+ }
+  if(document.getElementById("b").checked)
+ {
+ score++;
+ }
+  if(document.getElementById("c").checked)
+ {
+ score++;
+ }
+ document.getElementById("res").innerHTML="Score:"+score;
+}
+</script>
+</body>
+</html> 
