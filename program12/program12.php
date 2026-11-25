@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Indian Cricket Players</title>
+  
 <style>
 table {
 width: 50%;
@@ -16,10 +17,13 @@ th {
 background-color: lightgrey;
 }
 </style>
+  
 </head>
 <body>
 <h2 style="text-align: center;">List of Indian Cricket Players</h2>
+  
 <?php
+
 $players = array(
 
 "Virat Kohli",
@@ -46,12 +50,18 @@ $players = array(
 
 echo "<table align='center'>";
 
-echo "<tr><th>S.No</th><th>Player Name</th></tr>";
+echo "<tr>
+      <th>S.No</th>
+      <th>Player Name</th>
+      </tr>";
 
-foreach ($players as $x => $player) {
+foreach ($players as $x => $player)
+{
 
-echo "<tr><td>" . ($x + 1) . "</td><td>" . $player . "</td></tr>";
-
+echo "<tr>
+      <td> " . ($x + 1) . " </td>
+      <td> " . $player . " </td>
+      </tr>";
 }
 
 echo "</table>";
