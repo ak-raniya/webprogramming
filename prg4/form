@@ -3,9 +3,12 @@
 <title>registration form</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <div class="form">
+
 <h3>Registration Form</h3>
+
 <form>
 
 <label>Full name</label>
@@ -70,6 +73,8 @@
 <input type="reset" value="reset">
 
 </form>
+
 </div>
+
 </body>
 </html>
