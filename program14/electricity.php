@@ -23,19 +23,22 @@ $rate3=1.5;
 if(empty($name))
 {
 echo"<script>alert('please enter your name correctly')</script>";
-}
+} 
 else if(empty($units))
 {
 echo"<script>alert('units must be requierd')</script>";
 }
 else{
-if($unit<=100){
+if($unit<=100)
+{
 $bill=$units*$rate1;
-}
-else if($units<=300){
+} 
+else if($units<=300)
+{
 $bill=$units*$rate2;
 }
-else {
+else 
+{
 $bill=$units*$rate3;
 }
 echo"Name:$name<br>";
