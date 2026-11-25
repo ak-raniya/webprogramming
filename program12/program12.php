@@ -3,19 +3,23 @@
 <title>Indian Cricket Players</title>
   
 <style>
+  
 table {
 width: 50%;
 border-collapse: collapse;
 20px auto;
 }
+  
 th, td {
 padding: 10px;
 text-align: center;
 border: 1px solid black;
 }
+  
 th {
 background-color: lightgrey;
 }
+  
 </style>
   
 </head>
